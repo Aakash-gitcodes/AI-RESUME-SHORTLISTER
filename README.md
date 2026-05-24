@@ -59,4 +59,4 @@ AI Project/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Aakash-gitcodes/AI-Resume-Shortlister.git
+git clone https://github.com/Aakash-gitcodes/AI-RESUME-SHORTLISTER.git
