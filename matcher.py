@@ -19,10 +19,8 @@ def match_skills(text):
 
         skill_lower = skill.lower()
 
-        # -----------------------------
         # SPECIAL CASES
-        # -----------------------------
-
+        
         # Exact C++
         if skill_lower == "c++":
 

@@ -2,10 +2,8 @@ import fitz
 import re
 
 
-# -----------------------------------
-# FUNCTION 1
-# Extract text from PDF
-# -----------------------------------
+
+# FUNCTION 1: Extract text from PDF
 
 def extract_text(pdf_path):
 
@@ -19,10 +17,7 @@ def extract_text(pdf_path):
     return text
 
 
-# -----------------------------------
-# FUNCTION 2
-# Extract Candidate Name
-# -----------------------------------
+# FUNCTION 2: Extract Candidate Name
 
 def extract_name(text):
 
@@ -67,10 +62,7 @@ def extract_name(text):
     return "Name Not Found"
 
 
-# -----------------------------------
-# FUNCTION 3
-# Extract Email
-# -----------------------------------
+# FUNCTION 3: Extract Email
 
 def extract_email(text):
 
@@ -84,10 +76,7 @@ def extract_email(text):
     return "Not Found"
 
 
-# -----------------------------------
-# FUNCTION 4
-# Extract Phone Number
-# -----------------------------------
+# FUNCTION 4: Extract Phone Number
 
 def extract_phone(text):
 
